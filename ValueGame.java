@@ -15,6 +15,7 @@ public class ValueGame
 		int FourthGuess;
 		int FifthGuess;
 
+
 		Scanner fileIn = new Scanner (new FileReader("value.txt"));
 		
 		RealValue = fileIn.nextInt();
